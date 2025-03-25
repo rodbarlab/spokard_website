@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spokard - AI-Powered Professional Networking</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #141414;
+            color: #EAEAEA;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1E1E1E;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #78D1B6;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #EAEAEA;
+        }
+        .btn {
+            background-color: #78D1B6;
+            padding: 15px 30px;
+            border-radius: 8px;
+            color: #141414;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+            display: inline-block;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        .btn:hover {
+            background-color: #5CB89A;
+        }
+        .hero {
+            text-align: center;
+            padding: 120px 20px;
+            background: linear-gradient(to bottom, #222, #141414);
+        }
+        .feature-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            padding: 50px;
+        }
+        .feature {
+            background-color: #1E1E1E;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: center;
+        }
+        .feature img {
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+            margin-bottom: 10px;
+        }
+        #signup, #careers {
+            text-align: center;
+            padding: 50px;
+            background-color: #222;
+        }
+        .founders {
+            text-align: center;
+            padding: 50px;
+        }
+        .founder-card {
+            display: inline-block;
+            margin: 20px;
+            padding: 20px;
+            background-color: #1E1E1E;
+            border-radius: 10px;
+        }
+        .founder-card img {
+            width: 100px;
+            border-radius: 50%;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #1E1E1E;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Spokard</div>
+        <nav>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="#signup" class="btn">Join Now</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="hero">
+        <h1>Effortless Networking, Meaningful Connections</h1>
+        <p>Spokard is your AI-powered personal relationship manager, automating networking tasks so you can focus on building real connections.</p>
+        <a href="#signup" class="btn">Get Started</a>
+    </section>
+    
+    <section id="features">
+        <h2 style="text-align:center;">What Spokard Offers</h2>
+        <div class="feature-list">
+            <div class="feature">
+                <img src="ai-icon.png" alt="AI Icon">
+                <h3>AI Personal Relationship Manager</h3>
+                <p>Never forget to follow up or lose touch with important contacts.</p>
+            </div>
+            <div class="feature">
+                <img src="automation-icon.png" alt="Automation Icon">
+                <h3>Automated Networking Tasks</h3>
+                <p>Let Spokard handle scheduling, reminders, and personalized outreach.</p>
+            </div>
+            <div class="feature">
+                <img src="business-card-icon.png" alt="Business Card Icon">
+                <h3>Smart Business Card</h3>
+                <p>Share your digital card instantly and keep your connections updated.</p>
+            </div>
+        </div>
+    </section>
+    
+    <section class="founders">
+        <h2>Meet Our Founders</h2>
+        <div class="founder-card">
+            <img src="lillian.jpg" alt="Lillian Luo">
+            <h3>Lillian Luo</h3>
+            <p><a href="https://www.linkedin.com/in/lillian-luo12/en" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="founder-card">
+            <img src="yuval.jpg" alt="Yuval Efrat">
+            <h3>Yuval Efrat</h3>
+            <p><a href="https://www.linkedin.com/in/yuval-efrat/" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="founder-card">
+            <img src="rodrigo.jpg" alt="Rodrigo Barrios">
+            <h3>Rodrigo Barrios</h3>
+            <p><a href="https://www.linkedin.com/in/rodrigo-barrios-5b5b604b/" target="_blank">LinkedIn</a></p>
+        </div>
+    </section>
+    
+    <section id="careers">
+        <h2>Join Our Team</h2>
+        <p>We’re looking for passionate individuals to help us revolutionize networking. Explore opportunities with Spokard today.</p>
+        <a href="#" class="btn">View Open Positions</a>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Spokard. All rights reserved.</p>
+    </footer>
+</body>
+</html>
